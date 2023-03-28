@@ -4,6 +4,8 @@ body {
   align-items: center;
   /* justify-content: center; */
   height: 100vh; /* set the height of the parent element */
+  user-select: none;
+  font-family: Arial, sans-serif;
   background-image: linear-gradient(
     90deg,
     #ff5f6d,
@@ -12,7 +14,6 @@ body {
 }
 
 .area {
-  user-select: none;
   margin: 0 auto;
 }
 
@@ -25,7 +26,6 @@ body {
   display: inline-block;
   padding: 20px;
   text-align: center;
-  font-family: Arial, sans-serif;
 }
 
 #screen {
@@ -49,11 +49,10 @@ button {
   min-width: fit-content;
   width: 50px;
   height: 50px;
-  font-size: 20px;
+  font-size: 18px;
   border: none;
   border-radius: 5px;
   margin: 5px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
   background-color: #d2d2d2;
   transition: background-color 0.2s ease-in-out;
   cursor: pointer;
@@ -98,10 +97,6 @@ button:active {
   display: none;
 }
 
-.log:active {
-  background-color: #9a9a9a;
-}
-
 .signature {
   position: absolute;
   bottom: 20px;
@@ -112,7 +107,6 @@ button:active {
   font-weight: bold;
   color: #d47e0c;
   transform: rotate(-6deg);
-  user-select: none;
 }
 
 /*----------------------*/
