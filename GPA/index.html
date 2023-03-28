@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>GPA Calculator</title>
+	<link rel="icon" href="img/iconOfPage.png">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="form-section">
+		<form id="class-form">
+			<fieldset class="calculator">
+				<legend>Enter Class Details:</legend>
+				<div class="form-group">
+					<label for="class-name">Class Name:</label>
+					<input type="text" id="class-name" name="class-name" required>
+				</div>
+				<div class="form-group">
+					<label for="credit-hours">Credit Hours:</label>
+					<input type="number" id="credit-hours" name="credit-hours" min="1" max="5" required>
+				</div>
+				<div class="form-group">
+					<label for="grade">Grade:</label>
+					<select id="grade" name="grade" required>
+						<option value="" disabled selected>Select Grade</option>
+						<option value="4.0">AA</option>
+						<option value="3.5">BA</option>
+						<option value="3.0">BB</option>
+						<option value="2.5">CB</option>
+						<option value="2.0">CC</option>
+						<option value="1.5">DC</option>
+						<option value="1.0">DD</option>
+						<option value="0.5">FD</option>
+						<option value="0.0">FF</option>
+					</select>
+				</div>
+				<button type="submit" class="submit">Add Class</button>
+			</fieldset>
+
+			<div class="results-section">
+				<div class="area">
+					<table>
+						<thead>
+							<tr>
+								<th>Class Name</th>
+								<th>Credit Hours</th>
+								<th>Grade</th>
+								<th>Grade Points</th>
+								<th>Delete</th>
+							</tr>
+						</thead>
+						<tbody id="class-list"></tbody>
+					</table>
+				</div>
+				<p class="gpa-current">Your current GPA is: <span id="gpa"> 0.00</span></p>
+			</div>
+		</form>
+
+	</div>
+
+	<script src="app.js"></script>
+</body>
+
+</html>

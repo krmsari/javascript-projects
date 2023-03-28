@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Hesap Makinesi</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="img\calculator.png" />
+</head>
+
+<body>
+  <div class="area">
+    <div id="calculator">
+      <form>
+        <input type="text" name="screen" id="screen" readonly>
+        <br>
+        <button type="button" class="clear" onclick="clearScreen()">C</button>
+        <button type="button" class="del" onclick="del()">DEL</button>
+        <button type="button" onclick="addToScreen('/')">/</button>
+        <button type="button" onclick="addToScreen('.')">.</button>
+        <br>
+        <button type="button" id="sqrt-btn" class="button" onclick="calculate()">√</button>
+        <button type="button" onclick="addToScreen('(')">(</button>
+        <button type="button" onclick="addToScreen(')')">)</button>
+        <button type="button" class="log" onclick="log()">HL</button>
+        <br>
+        <button type="button" onclick="addToScreen('7')">7</button>
+        <button type="button" onclick="addToScreen('8')">8</button>
+        <button type="button" onclick="addToScreen('9')">9</button>
+        <button type="button" onclick="addToScreen('*')">*</button>
+        <br>
+        <button type="button" onclick="addToScreen('4')">4</button>
+        <button type="button" onclick="addToScreen('5')">5</button>
+        <button type="button" onclick="addToScreen('6')">6</button>
+        <button type="button" onclick="addToScreen('-')">-</button>
+        <br>
+        <button type="button" onclick="addToScreen('1')">1</button>
+        <button type="button" onclick="addToScreen('2')">2</button>
+        <button type="button" onclick="addToScreen('3')">3</button>
+        <button type="button" onclick="addToScreen('+')">+</button>
+        <br>
+        <button type="button" onclick="addToScreen('000')">000</button>
+        <button type="button" onclick="addToScreen('0')">0</button>
+        <button type="button" class="result" onclick="calculate(), calculateScreen()">=</button>
+
+      </form>
+    </div>
+    <div id="history-container">
+      <div id="history-log"></div>
+    </div>
+  </div>
+
+
+  <div class="signature">
+    <span>Kerem Sarı</span>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>

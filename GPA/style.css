@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f7f7;
+  user-select: none;
+  font-family: Arial, sans-serif;
+}
+
+.form-section {
+  margin: 0 auto;
+  padding: 20px;
+  flex-direction: column;
+}
+form {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+th,
+td {
+  text-align: center;
+  padding: 8px;
+  position: relative;
+  border-bottom: 1px solid #ddd;
+}
+
+th:last-child,
+td:last-child {
+  text-align: center;
+}
+
+.delete {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete:hover {
+  background-color: #d32f2f;
+}
+/*  I plagiarized this css of submit button. :(  */
+.submit {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 5px 0px #3e8e41;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.submit:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 8px 0px #3e8e41;
+}
+.gpa-current {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+}
+.delete-button {
+  background-color: #c61010; /* Green */
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.delete-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 1px 0px #8e3e3e;
+}
+/*
+.results {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  text-align: center;
+}
+*/
+.results p {
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.results span {
+  font-weight: bold;
+  font-size: 24px;
+}
+.calculator {
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.results-section {
+  display: contents;
+  position: absolute;
+}
+div.area {
+  width: 60%;
+  background-color: #4caf50;
+  border-radius: 6px;
+  color: #fff;
+  box-shadow: black;
+  display: inline-block;
+}
+.form-section p {
+  display: inline-block;
+  position: absolute;
+  margin-left: 10%;
+}
+#class-list {
+  background-color: white;
+  color: black;
+}

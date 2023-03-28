@@ -1,0 +1,118 @@
+body {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  /* justify-content: center; */
+  height: 100vh; /* set the height of the parent element */
+  background-image: linear-gradient(
+    90deg,
+    #ff5f6d,
+    #ffc371
+  ); /* add gradient for fiery effect */
+}
+
+.area {
+  user-select: none;
+  margin: 0 auto;
+}
+
+#calculator {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  background-color: #f2f2f2;
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+#screen {
+  width: 100%;
+  display: flex;
+  height: 50px;
+  font-size: 30px;
+  color: black;
+  text-align: right;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px;
+  padding: 5px;
+  box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.4);
+  background-color: #fff;
+}
+form .result {
+  width: 115px;
+}
+button {
+  min-width: fit-content;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #d2d2d2;
+  transition: background-color 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+button.del {
+  background-color: #ff8c00;
+}
+button.del:hover {
+  background-color: #ef9d38;
+}
+
+button.clear {
+  background-color: rgb(138, 17, 17);
+}
+button.clear:hover {
+  background-color: rgb(170, 24, 24);
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+button:active {
+  box-shadow: none;
+  transform: translateY(2px);
+}
+
+#history-container {
+  visibility: hidden;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  overflow-y: scroll;
+  display: inline-block;
+}
+
+#history-container::-webkit-scrollbar {
+  display: none;
+}
+
+.log:active {
+  background-color: #9a9a9a;
+}
+
+.signature {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  margin: 10px;
+  font-size: 1.2rem;
+  font-family: "Sacramento", cursive;
+  font-weight: bold;
+  color: #d47e0c;
+  transform: rotate(-6deg);
+  user-select: none;
+}
+
+/*----------------------*/
