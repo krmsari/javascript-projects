@@ -17,6 +17,6 @@
 </a>
 
 
-Click to gif for video
+Click to gifs for videos
 
 </div>
