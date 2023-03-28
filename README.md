@@ -10,7 +10,7 @@
 </a>
 <br>
 <h2> GPA Calculator </h2>
-<a align="center"  href="https://user-images.githubusercontent.com/77582858/228367356-ebd5e7c4-0eaa-4b76-9db3-5ab1d1ad4242.mp4" title="Click for video">
+<a align="center"  href="https://user-images.githubusercontent.com/77582858/228379790-12632b78-67cb-447a-bcad-8e487b44faab.mp4" title="Click for video">
 
 <img src="https://user-images.githubusercontent.com/77582858/228367411-d848c8c9-c9d8-44de-a341-231c10db66c7.gif" alt="Alternate Text" width="860" height="480"/>
 
@@ -20,3 +20,6 @@
 Click to gifs for videos
 
 </div>
+
+
+
