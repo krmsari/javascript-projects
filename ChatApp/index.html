@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Chat App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <div class="chat-header">
+            <h3>Chat</h3>
+        </div>
+        <div class="chat-messages" id="messages">
+        </div>
+        <div class="chat-form">
+            <div class="group">
+                <input type="text" id="input" class="inputText" placeholder="Enter message...">
+                <button type="button" class="send-button" onclick="send()" id="send">Send</button>
+                <input id="imageInput"  class="file" type="file" name="name" onchange="previewImage(event)"/>
+                <label for="imageInput" class="file-button" id="file">+</label>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
