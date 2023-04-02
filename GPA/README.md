@@ -1,4 +1,4 @@
-# <h1 align="center" > Calculator 
+# <h1 align="center" > GPA Calculator 
 
 <div align="center">
 
