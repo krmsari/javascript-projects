@@ -7,7 +7,7 @@
   <br><br> The GPA is calculated using the standard formula: GPA = (total grade points) / (total credit hours). The grade points are calculated based on the letter grade the user entered for each course, according to a predefined grade point scale.
   <br> A "delete" button could be a useful feature to allow users to remove a previously entered course if they made a mistake or if they want to recalculate their GPA without including that course. The button be added as a separate element in the HTML code and styled using CSS.
 
-<a align="center"  href="https://user-images.githubusercontent.com/77582858/228367356-ebd5e7c4-0eaa-4b76-9db3-5ab1d1ad4242.mp4" title="Click for video">
+<a align="center"  href="https://user-images.githubusercontent.com/77582858/228379790-12632b78-67cb-447a-bcad-8e487b44faab.mp4" title="Click for video">
 
 <img src="https://user-images.githubusercontent.com/77582858/228367411-d848c8c9-c9d8-44de-a341-231c10db66c7.gif" alt="Alternate Text" width="860" height="480"/>
 
