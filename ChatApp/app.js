@@ -110,7 +110,7 @@ function makeid(length) {
     let counter = 0;
     while (counter < Math.random() * 1000) {
         result += characters.charAt(Math.floor(Math.random() * charactersLength));
-        counter += 1;
+        counter ++;
     }
     return result;
 }
