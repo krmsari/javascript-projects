@@ -22,6 +22,11 @@ Click to gifs for videos
 
 <img src="https://user-images.githubusercontent.com/77582858/229355348-ae6ddf96-745a-49b7-ab74-5309f7b998db.png" alt="Alternate Text" width="860" height="480"/>
 
+<br><br><br><br>
+<h2> Savings Calculation App </h2>
+
+<img src="https://github.com/krmsari/javascript-projects/assets/77582858/b7bfd3f7-9b4e-4ab5-969a-613d67b30c87" alt="Alternate Text" width="860" height="480"/>
+
 </div>
 
 
