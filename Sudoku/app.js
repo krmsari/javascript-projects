@@ -45,7 +45,7 @@ function createMatrix(wrong) {
             input.setAttribute('max', '9');
             input.setAttribute('step', '1');
             // #endregion
-            if ((Math.random() * (1 - 0) + 0) < 0.96) {
+            if ((Math.random() * (1 - 0) + 0) < 0.5) { //The ratio here determines the difficulty of the game. It gets easier as it gets closer to 1.
 
                 input.setAttribute('value', board[i][j]);
                 input.classList.add('disabled');
