@@ -1,0 +1,85 @@
+body{
+    user-select: none;
+}
+.game-area{
+    display: flex;
+}
+.container {
+    position: relative;
+    float: left;
+    top: 50%;
+    cursor: pointer;
+}
+.button {
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.menu{
+    position: relative;
+    float: left;
+    width: 50%;
+    margin: 6%;
+    padding:1%;
+    border: 1px solid #585858;
+    border-radius: 12px;
+    height: 100px;
+    width: 300px;
+}
+.button:hover {
+    background-color: #0056b3;
+}
+
+.button:active {
+    background-color: #003d80;
+    transform: translateY(0.5px);
+}
+.solved-button{
+    background-color: coral;
+    margin:20px
+}.solved-button:hover{
+    background-color: rgb(196, 85, 45);
+}
+.matrix {
+    display: grid;
+    grid-template-columns: repeat(9, 70px);
+}
+
+.cell {
+    width: 70px;
+    height: 70px;
+    padding: 0.4px;
+}
+
+.input {
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+    border-color: rgb(187, 187, 187);
+    background-color: rgb(184, 184, 184);
+}
+.disabled {
+    pointer-events: none;
+
+}
+.paint {
+    background-color: rgb(146, 146, 146);
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.text{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #585858;
+}
