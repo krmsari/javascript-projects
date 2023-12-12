@@ -8,7 +8,7 @@ let classes = [];
 function addClass(event) {
 	event.preventDefault();
 	const className = document.getElementById('class-name').value;
-	const creditHours = parseInt(document.getElementById('credit-hours').value);
+	const creditHours = parseFloat(document.getElementById('credit-hours').value);
 	const grade = parseFloat(document.getElementById('grade').value);
 	const gradePoints = creditHours * grade;
 	const newClass = { className, creditHours, grade, gradePoints };
@@ -46,8 +46,11 @@ function displayClasses() {
 }
 
 function updateGPA() {
-	let totalPoints = 0;
-	let totalHours = 0;
+	let currentGPA = parseFloat(document.getElementById('currentGPA').value) ? parseFloat(document.getElementById('currentGPA').value) : 0;
+	let currentHours = parseFloat(document.getElementById('currentHours').value) ? parseFloat(document.getElementById('currentHours').value) : 0;
+
+	let totalPoints = currentGPA * currentHours;
+	let totalHours = currentHours;
 	for (let i = 0; i < classes.length; i++) {
 		totalPoints += classes[i].gradePoints;
 		totalHours += classes[i].creditHours;
