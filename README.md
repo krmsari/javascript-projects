@@ -26,6 +26,10 @@ Click to gifs for videos
 <h2> Savings Calculation App </h2>
 
 <img src="https://github.com/krmsari/javascript-projects/assets/77582858/b7bfd3f7-9b4e-4ab5-969a-613d67b30c87" alt="Alternate Text" width="860" height="480"/>
+<br><br><br><br>
+<h2> Sudoku Game</h2>
+
+<img src="https://github.com/krmsari/javascript-projects/assets/77582858/b63c4590-60b9-4a10-b9c4-2a96eab595ff" alt="Alternate Text" width="860" height="480"/>
 
 </div>
 
